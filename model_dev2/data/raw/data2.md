@@ -1,10 +1,8 @@
-Death rates for suicide, by sex, race, Hispanic origin, and age: United States
+Drug overdose death rates, by drug type, sex, age, race, and Hispanic origin: United States
 
-https://catalog.data.gov/dataset/death-rates-for-suicide-by-sex-race-hispanic-origin-and-age-united-states-020c1
+https://catalog.data.gov/dataset/drug-overdose-death-rates-by-drug-type-sex-age-race-and-hispanic-origin-united-states-3f72f/resource/48eb6490-5709-43f3-ae4a-3c7d3a4b0c2c
 
-Data on death rates for suicide, by selected population characteristics.
-
-Classification: Identify missing values, Remove outliers, Cleaning column names, Drop unnecessary columns
+Data on drug overdose death rates, by drug type and selected population characteristics
 
 Identify missing values: use df.replace to remove white space with 0
 
@@ -25,6 +23,6 @@ Replace column for gender with Male or Female and remove other str characters su
 
 Cannot perform other dependent variables without cleaning dataset
 
-can we predict the year of death based on death rate in the US?
+can we predict the year of drug overdose based on drug overdose rate in the US?
 
-Dependent: Year  Independent: Death Rate
+Dependent: year Independent: Drug overdose rate
